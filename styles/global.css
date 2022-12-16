@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap);
+@import './layout.css';
+
+:root {
+  --main-bg: #e5e5e5;
+}
 
 body {
   margin: 0;
   padding: 0;
   vertical-align: top;
   box-sizing: border-box;
-  background-color: #e5e5e5;
+  background-color: var(--main-bg);
   font-family: 'Montserrat', sans-serif;
-}
-
-.link {
-  text-decoration: none;
-  color: inherit;
 }
